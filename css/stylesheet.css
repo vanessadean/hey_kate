@@ -24,12 +24,17 @@ h1 {
 
 h3 {
 	font-family: Mclaren, sans-serif;
+	font-size: 1.5em;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 800px) {
 
 	h1 {
 		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.25em;
 	}
 
 	.header-1, .header-2, .header {
@@ -48,6 +53,10 @@ footer p {
 	text-align: center;
 	font-size: .75em;
 	line-height: .76em;
+}
+
+h3 {
+	font-size: 1.1em;
 }
 
 }
@@ -111,8 +120,9 @@ h3.reviewone {
 	position: relative;
 	float: left;
 	margin-left: 5%;
-	border-color: rgba(206, 183, 182, 1);
-	background: rgba(206, 183, 182, 1);
+	border-color: rgba(216, 190, 182, .60);
+	background: rgba(216, 190, 182, .60);
+	/*color: rgba(222, 205, 196, 1);*/
 	margin-top: 30px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -174,6 +184,19 @@ footer p {
 	line-height: 1em;
 }
 
+a {
+	color: rgba(141, 114, 124, 1);
+}
+
+a:hover {
+	color: white;
+}
+
 footer a {
 	color: white;
 }
+
+footer a:hover {
+	color: black;
+}
+
