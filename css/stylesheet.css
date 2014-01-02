@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=McLaren);
+
+.header-1 {
+	background-image: url('../img/hey-kate-header-1.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.header-2 {
+	background-image: url('../img/hey-kate-header-2.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header-1, .header-2, .header {
+	height: 200px;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: Mclaren, sans-serif;
+}
+
+h3 {
+	font-family: Mclaren, sans-serif;
+}
+
+@media only screen and (max-width: 720px) {
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	.header-1, .header-2, .header {
+	height: 150px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+footer {
+	height: 50px;
+}
+
+footer p {
+	padding-top: 20px;
+	text-align: center;
+	font-size: .75em;
+	line-height: .76em;
+}
+
+}
+
+/*-----Speech Bubbles-------*/
+
+h1.reviewone {
+	display: block;
+	width: 50%;
+	padding: 20px;
+	position: relative;
+	margin-left: 15%;
+	border-color: #fff;
+	background: #fff;
+	margin-top:30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+h1.reviewone:after {
+	content: '';
+	position: absolute;
+	right: 100%;
+	top: 7px;
+	border-top: 40px solid black;
+	border-top-color: inherit;
+	border-left: 40px solid transparent;
+	border-right: 0px solid transparent;
+}
+
+h1.reviewtwo {
+	display: block;
+	width: 50%;
+	padding: 20px;
+	position: relative;
+	margin: 0 auto;
+	border-color: #fff;
+	background: #fff;
+	margin: 30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+h1.reviewtwo:after {
+	content: '';
+	position: absolute;
+	left: 100%;
+	top: 7px;
+	border-top: 40px solid black;
+	border-top-color: inherit;
+	border-right: 40px solid transparent;
+	border-left: 0px solid transparent;
+} 
+
+h3.reviewone {
+	display: block;
+	width: 60%;
+	padding: 30px;
+	position: relative;
+	float: left;
+	margin-left: 5%;
+	border-color: rgba(206, 183, 182, 1);
+	background: rgba(206, 183, 182, 1);
+	margin-top: 30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+h3.reviewone:after {
+	content: '';
+	position: absolute;
+	right: 100%;
+	top: 7px;
+	border-top: 40px solid black;
+	border-top-color: inherit;
+	border-left: 40px solid transparent;
+	border-right: 0px solid transparent;
+}
+
+h3.reviewtwo {
+	display: block;
+	width: 60%;
+	padding: 30px;
+	position: relative;
+	float: right;
+	border-color: rgba(141, 114, 124, 1);
+	background: rgba(141, 114, 124, 1);
+	color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-right: 5%;
+}
+
+h3.reviewtwo:after {
+	content: '';
+	position: absolute;
+	left: 100%;
+	top: 7px;
+	border-top: 40px solid black;
+	border-top-color: inherit;
+	border-right: 40px solid transparent;
+	border-left: 0px solid transparent;
+} 
+
+/*-----End Speech Bubbles-------*/
+
+footer {
+	height: 75px;
+	background: rgba(141, 114, 124, 1);
+	margin-top: 30px;
+}
+
+footer p {
+	padding-top: 20px;
+	padding-right: 20px;
+	text-align: right;
+	color: rgba(222, 205, 196, 1);
+	font-size: .8em;
+	line-height: 1em;
+}
+
+footer a {
+	color: white;
+}
