@@ -38,7 +38,13 @@ h3 {
 	}
 
 	.header-1, .header-2, .header {
-	height: 150px;
+		height: 150px;
+	}
+
+	h3.reviewone, h3.reviewtwo {
+		padding: 20px;
+		margin-top: 10px;
+		width: 75%;
 	}
 }
 

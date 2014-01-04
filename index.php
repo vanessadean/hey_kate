@@ -17,7 +17,7 @@ include('inc/content.php');
   </div>
   <div class="row">
       <div class="large-12 small-12 columns">
-        <h3 class="reviewone">Okay, how about <a href="./">...</a></h3>
+        <h3 class="reviewone">Okay, <a href="./">how about...</a></h3>
       </div>
   </div>
 
