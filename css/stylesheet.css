@@ -156,7 +156,8 @@ footer p {
 	text-align: right;
 	color: rgba(222, 205, 196, 1);
 	font-size: .8em;
-	line-height: 1em;
+	line-height: 1.25em;
+	font-family: arial;
 }
 
 footer a {
@@ -209,14 +210,14 @@ footer a:hover {
 	}
 
 	footer {
-		height: 50px;
+		height: 60px;
 	}
 
 	footer p {
-		padding-top: 20px;
+		padding: 15px;
 		text-align: center;
 		font-size: .75em;
-		line-height: 1.1em;
+		line-height: 1.3333em;
 	}
 
 	h3 {
