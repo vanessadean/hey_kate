@@ -93,18 +93,11 @@ var retorts = [
 ];
 
 
-
-
 $(document).ready(function() {
-	
 	$('.next').on('click', function() {	
-		
-		var recipe = recipes[Math.floor(Math.random() * recipes.length)];
-		
+		var recipe = Math.floor(Math.random() * recipes.length);
 		var retort = retorts[Math.floor(Math.random() * retorts.length)];
-				
-		$("#ask").html('Would you pretty please make me <a href='+links[recipe]+' id="recipe"></br>'+recipe+'</a>');
-		
+		$("#ask").html('Would you pretty please make me <a href='+links[recipe]+' id="recipe" target="_blank"></br>'+recipes[recipe]+'</a>');
 		$("#retort").html(retort);
 	
 	});
