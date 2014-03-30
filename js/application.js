@@ -1,6 +1,6 @@
 ﻿function loadRecipes(meal){
 			
-	var recipesURL = "https://www.googleapis.com/blogger/v3/blogs/3854030458663494467/posts?labels="+meal+"&maxResults=100&fields=items(title,url)&key=AIzaSyCzu6gce7rYTLbUmF_KytciKW8p4EK9xko";
+	var recipesURL = "https://www.googleapis.com/blogger/v3/blogs/3854030458663494467/posts?labels="+meal+"&maxResults=100&fields=items(title,url)&key=AIzaSyCexQPjcyCb2qtDq5ZAEiCNHrFEt0CjowA";
 
 	var recipes = {
 		'titles': [],

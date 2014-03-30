@@ -5,7 +5,7 @@
 			'links': ["http://brooklynfoodlibrary.blogspot.com/2013/02/soup-all-i-want-to-eat-these-days-is.html","http://brooklynfoodlibrary.blogspot.com/2012/02/ive-been-slacking-on-blogging-but-now.html","http://brooklynfoodlibrary.blogspot.com/2012/01/homemade-noodles.html","http://brooklynfoodlibrary.blogspot.com/2012/01/after-strict-holiday-diet-of-cake-pops.html","http://brooklynfoodlibrary.blogspot.com/2011/09/this-was-cover-recipe-from-taste-of.html","http://brooklynfoodlibrary.blogspot.com/2010/09/butternut-squash-soup-with-pears-and.html","http://brooklynfoodlibrary.blogspot.com/2010/03/potato-leek-soup.html","http://brooklynfoodlibrary.blogspot.com/2013/02/buffalo-chicken-and-blue-cheese-dip.html","http://brooklynfoodlibrary.blogspot.com/2011/05/goat-cheese-and-caramelized-onion-dip.html","http://brooklynfoodlibrary.blogspot.com/2010/08/roasted-garlic-hummus-with-toasted-pine.html","http://brooklynfoodlibrary.blogspot.com/2010/08/roasted-garlic.html","http://brooklynfoodlibrary.blogspot.com/2010/03/roasted-cauliflower-puree.html"]
 	};	
 
-	var recipesURL = "https://www.googleapis.com/blogger/v3/blogs/3854030458663494467/posts?labels=Sides&maxResults=100&fields=items(title,url)&key=AIzaSyCzu6gce7rYTLbUmF_KytciKW8p4EK9xko";
+	var recipesURL = "https://www.googleapis.com/blogger/v3/blogs/3854030458663494467/posts?labels=Sides&maxResults=100&fields=items(title,url)&key=AIzaSyCexQPjcyCb2qtDq5ZAEiCNHrFEt0CjowA";
 
 	var recipes = {
 		'titles': [],
