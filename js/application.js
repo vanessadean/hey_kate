@@ -38,5 +38,3 @@ var retorts = [
 "What’s in it for me?",
 "Why would I do that?",
 ];
-
-
